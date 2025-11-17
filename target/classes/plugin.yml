@@ -1,0 +1,12 @@
+name: AwizzLobby
+main: space.awizz.lobby.AwizzLobbyPlugin
+version: 1.0.0
+description: Lobby selector compass for Awizz Network
+author: Awizz
+commands:
+  selector:
+    description: Open the server selector menu
+    usage: /selector
+    aliases: [servers]
+permissions: {}
+

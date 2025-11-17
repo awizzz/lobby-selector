@@ -1,0 +1,39 @@
+selector-item:
+  slot: 5
+  material: COMPASS
+  name: "&bModes &7- Clic droit"
+  lore:
+    - "&7Ouvre le menu pour choisir"
+    - "&7Practice, UHC et plus encore."
+
+menu:
+  title: "&8Awizz Network"
+  size: 9
+  entries:
+    practice:
+      slot: 3
+      material: DIAMOND_SWORD
+      name: "&bPractice"
+      lore:
+        - "&7Duels, FFA, events."
+        - "&fConnectés: &7via proxy"
+        - ""
+        - "&bClique pour rejoindre."
+      server: practice1
+    uhc:
+      slot: 5
+      material: GOLDEN_APPLE
+      name: "&6UHC"
+      lore:
+        - "&7Hosted games custom."
+        - "&fStatut: &aOuvert"
+        - ""
+        - "&6Clique pour rejoindre."
+      server: uhc1
+      enabled: true
+      disabled-message: "&cMode indisponible."
+
+messages:
+  connect: "&aConnexion au serveur &f<server>&a..."
+  deny-sound: BLOCK_NOTE_BASS
+
